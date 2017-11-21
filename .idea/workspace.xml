@@ -2,196 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53fb64fb-852a-4c2b-864b-f6e1031b8614" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/airline/2x-APEX-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/airline/2x-APEX-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/airline/2x-APEX-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/airline/Mobile-APEX-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/airline/Mobile-APEX-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/airline/Mobile-APEX-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/airline/Normal-APEX-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/airline/Normal-APEX-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/airline/Normal-APEX-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/2x-Altitude-Community-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/2x-Altitude-Community-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/2x-Altitude-Community-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/2x-Altitude-Community-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/2x-Altitude-Community-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/2x-Altitude-Community-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/Mobile-Altitude-Community-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/Mobile-Altitude-Community-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/Mobile-Altitude-Community-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/Mobile-Altitude-Community-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/Mobile-Altitude-Community-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/Mobile-Altitude-Community-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/Normal-Altitude-Community-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/Normal-Altitude-Community-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/Normal-Altitude-Community-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/Normal-Altitude-Community-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/Normal-Altitude-Community-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/attitude/Normal-Altitude-Community-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/android-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/android-icon-192x192.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/android-icon-36x36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/android-icon-48x48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/android-icon-72x72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/android-icon-96x96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-114x114.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-120x120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-152x152.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-180x180.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-57x57.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-60x60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-72x72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-76x76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/apple-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/favicon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/favicon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/favicon-96x96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/ms-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/ms-icon-150x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/ms-icon-310x310.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/ms-icon-70x70.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/Arrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/LauraServiceIcon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/android-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/android-icon-192x192.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/android-icon-36x36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/android-icon-48x48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/android-icon-72x72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/android-icon-96x96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/apple-icon-114x114.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/apple-icon-120x120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/apple-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/apple-icon-152x152.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/apple-icon-180x180.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/apple-icon-57x57.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/apple-icon-60x60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/apple-icon-72x72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/apple-icon-76x76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/apple-icon-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/apple-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/favicon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/favicon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/favicon-96x96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/ms-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/ms-icon-150x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/ms-icon-310x310.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/ms-icon-70x70.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/icon-white.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/mercedes/2x-Mercedes-Benz-Magazine-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/mercedes/2x-Mercedes-Benz-Magazine-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/mercedes/2x-Mercedes-Benz-Magazine-3-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/mercedes/2x-Mercedes-Benz-Magazine-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/mercedes/Mobile-Mercedes-Benz-Magazine-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/mercedes/Mobile-Mercedes-Benz-Magazine-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/mercedes/Mobile-Mercedes-Benz-Magazine-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/mercedes/Normal-Mercedes-Benz-Magazine-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/mercedes/Normal-Mercedes-Benz-Magazine-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/mercedes/Normal-Mercedes-Benz-Magazine-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/penny/2x-Penny-Black-Media-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/penny/2x-Penny-Black-Media-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/penny/2x-Penny-Black-Media-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/penny/Mobile-Penny-Black-Media-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/penny/Mobile-Penny-Black-Media-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/penny/Mobile-Penny-Black-Media-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/penny/Normal-Penny-Black-Media-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/penny/Normal-Penny-Black-Media-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/penny/Normal-Penny-Black-Media-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/restaurants/2x-Canadas-Best-New-Restaurant-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/restaurants/2x-Canadas-Best-New-Restaurant-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/restaurants/2x-Canadas-Best-New-Restaurant-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/restaurants/Mobile-Canadas-Best-New-Restaurant-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/restaurants/Mobile-Canadas-Best-New-Restaurant-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/restaurants/Mobile-Canadas-Best-New-Restaurant-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/restaurants/Normal-Canadas-Best-New-Restaurant-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/restaurants/Normal-Canadas-Best-New-Restaurant-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/restaurants/Normal-Canadas-Best-New-Restaurant-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/sparksheet/2x-Sparksheet-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/sparksheet/2x-Sparksheet-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/sparksheet/2x-Sparksheet-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/sparksheet/Mobile-Sparksheet-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/sparksheet/Mobile-Sparksheet-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/sparksheet/Mobile-Sparksheet-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/sparksheet/Normal-Sparksheet-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/sparksheet/Normal-Sparksheet-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/sparksheet/Normal-Sparksheet-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/wings/2x-Earn-Your-Wings-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/wings/2x-Earn-Your-Wings-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/wings/2x-Earn-Your-Wings-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/wings/Mobile-Earn-Your-Wings-1-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/wings/Mobile-Earn-Your-Wings-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/wings/Mobile-Earn-Your-Wings-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/wings/Mobile-Earn-Your-Wings-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/wings/Normal-Earn-Your-Wings-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/wings/Normal-Earn-Your-Wings-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/wings/Normal-Earn-Your-Wings-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/workedWithIcons/2x-laura-portrait.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/workedWithIcons/Normal-laura-portrait.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/workedWithIcons/mobile-laura-portrait.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LauraServiceReloaded.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/CNAME" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/browserconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/favicon/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/LauraServiceIconBlack.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/LauraServiceIconWhite.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/branding.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/data-visualization.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/facebook-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/browserconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/favicon/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/instagram-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/interaction-design.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/linkedin-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/share-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/share/email-icon-purple.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/share/facebook-icon-purple.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/share/twitter-icon-purple.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/icon/twitter-icon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/workedWithIcons/Air-Canada.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/workedWithIcons/Apex.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/workedWithIcons/Cinema-du-Quebec.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/workedWithIcons/Filmbank.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/workedWithIcons/Logistik.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/workedWithIcons/Mercedes-Benz-Magazine.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/workedWithIcons/Penny-Black-Media.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/workedWithIcons/Spafax.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/workedWithIcons/Sparksheet.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/workedWithIcons/Vancouver-Island-University.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/workedWithIcons/Vista-Jet.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/workedWithIcons/enRoute.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/directives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/vendors/device.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/homepage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/navBar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/project.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/projects/about.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/projects/airline.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/projects/altitude.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/projects/emptyProject.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/projects/homepageProjects.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/projects/mercedes.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/projects/penny.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/projects/restaurants.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/projects/sparksheet.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/projects/wings.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.bowerrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/icon/branding.svg" afterPath="$PROJECT_DIR$/app/img/icon/branding.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/icon/data-visualization.svg" afterPath="$PROJECT_DIR$/app/img/icon/data-visualization.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/icon/facebook-icon.svg" afterPath="$PROJECT_DIR$/app/img/icon/facebook-icon.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/icon/instagram-icon.svg" afterPath="$PROJECT_DIR$/app/img/icon/instagram-icon.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/icon/interaction-design.svg" afterPath="$PROJECT_DIR$/app/img/icon/interaction-design.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/icon/linkedin-icon.svg" afterPath="$PROJECT_DIR$/app/img/icon/linkedin-icon.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/icon/share-icon.svg" afterPath="$PROJECT_DIR$/app/img/icon/share-icon.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/icon/twitter-icon.svg" afterPath="$PROJECT_DIR$/app/img/icon/twitter-icon.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/navBar.html" afterPath="$PROJECT_DIR$/app/partials/navBar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/partials/project.html" afterPath="$PROJECT_DIR$/app/partials/project.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/projects/airline.json" afterPath="$PROJECT_DIR$/app/projects/airline.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/projects/altitude.json" afterPath="$PROJECT_DIR$/app/projects/altitude.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/projects/mercedes.json" afterPath="$PROJECT_DIR$/app/projects/mercedes.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/projects/penny.json" afterPath="$PROJECT_DIR$/app/projects/penny.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/projects/restaurants.json" afterPath="$PROJECT_DIR$/app/projects/restaurants.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/projects/sparksheet.json" afterPath="$PROJECT_DIR$/app/projects/sparksheet.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/projects/wings.json" afterPath="$PROJECT_DIR$/app/projects/wings.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -201,6 +35,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -209,15 +46,28 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/.bowerrc" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1923" />
+    <option name="width" value="1536" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -249,6 +99,12 @@
               <item name="LauraServiceReloaded" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LauraServiceReloaded" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LauraServiceReloaded" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -262,6 +118,11 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Cookies\IdeaProjects\LauraServiceReloaded\app" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -368,15 +229,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511237914027</updated>
-      <workItem from="1511237927976" duration="207000" />
+      <workItem from="1511237927976" duration="1201000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1511238160652</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511238160652</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207000" />
+    <option name="totallyTimeSpent" value="1201000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1923" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1536" height="1047" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -385,12 +254,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25040564" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31668946" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -412,8 +281,66 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511238871794" expanded="true" signature="0:313" ph="{&quot;name&quot;: &quot;Laura-Service&quot;...}" />
+            <marker date="1511238871794" expanded="true" signature="113:311" ph="{...}" />
+            <marker date="1511238871794" expanded="true" signature="280:307" ph="{&quot;version&quot;: &quot;0.0.5&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/projects/homepageProjects.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

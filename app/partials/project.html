@@ -28,6 +28,7 @@
 
 
 			</ul>
+			<div style="margin-top: 30px;"><a id="secondaryButton" class="sansSerif" target="_blank" href="http://{{ projectSingle.link }}">VISIT SITE</a></div>
 		</div>
 	</div>
 
@@ -37,15 +38,14 @@
 
 </div>
 <div id="projectFooter">
-	<div><a id="projectSingleBack" ng-click='toPageTop()' class="sansSerif">BACK TO TOP</a></div>
-	<div><a id="projectSingleLink" target="_blank" href="http://{{ projectSingle.link }}">{{ projectSingle.link }}</a></div>
-	<h1 id="projectFooterTitle">More Work</h1>
-	<img id="greenArrow" src="img/icon/Arrow.gif">
+	<div><a id="primaryButton" class="sansSerif" target="_blank" href="http://{{ projectSingle.link }}">VISIT SITE</a></div>
+	<h1 id="projectFooterTitle">Portfolio</h1>
+	<img id="greenArrow" src="img/icon/dotted-arrow.svg">
 </div>
 
 <div class="projects centered">
 	<ul>
-		<li ng-repeat="project in projects">
+		<li ng-repeat="project in projects" ng-if="project.id !== projectSingle.id">
 			<div class="projectImage image-wrapper">
 				<a href="#/projects/{{ project.id }}"><p class="projectName sansSerif">{{project.name}}</p>
 					<img class="img-responsive image" ng-src="{{ project.imageUrl }}" ng-srcset="{{ project.imageUrl }} 1x, {{ project.imageUrl2x }} 2x"></a>

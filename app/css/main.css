@@ -1,6 +1,6 @@
 p {margin-bottom: 2em;}
 
-.email-link:hover {color: #7d79e9}
+.email-link:hover {color: #0e4afb}
 
 .share-container {
   position: relative;
@@ -36,7 +36,7 @@ p {margin-bottom: 2em;}
   cursor: pointer;
   display: block;
   /*padding: 10px 20px;*/
-  padding-top 10px
+  padding-top: 10px;
   position: absolute;
   top: -5px;
   right: 0;
@@ -132,8 +132,8 @@ h1 {
 }
 
 a.navLinksA {color: rgb(112,112,112); transition: color .3s;}
-a.navLinksA.active {border-bottom: 1px solid rgb(89, 255, 137);}
-a.navLinksA:hover {border-bottom: 1px solid rgb(89, 255, 137);}
+a.navLinksA.active {border-bottom: 1px solid #0e4afb;}
+a.navLinksA:hover {border-bottom: 1px solid #0e4afb;}
 
 
 /* Nav Bar */
@@ -215,7 +215,7 @@ a.navLinksA:hover {border-bottom: 1px solid rgb(89, 255, 137);}
 
 .scrolled#header-wrap .navLinksA {
 
-	color: rgb(112, 112, 112);
+	color: rgb(0, 0, 0);
 	/*transition: 0.5s ease;*/
 }
 
@@ -308,7 +308,7 @@ img {
 }
 
 #homepageHeadText {
-
+	color: #808080;
 	text-align:left;
 	display:inline-block;
 	position: absolute;
@@ -318,7 +318,7 @@ img {
 
 #homepageName {
 
-	color: #808080;
+	color: #000000;
 	
 }
 
@@ -336,15 +336,15 @@ img {
 
 .accentLine {
 
-	border-top: 1px solid #59ff89;
-	border-bottom: 1px solid #59ff89;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
 
 #accentCircle {
 
-	color: #8D8DE2;
+	color: #0e4afb;
 	display: inline-block;
 }
 
@@ -354,7 +354,7 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #808080;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: .5px;
   font-size: 1.1em;
@@ -362,12 +362,12 @@ img {
 
 
 #shareIcon {
-
+	color: #0e4afb;
 	height: 20px;
 }
 
 #shareLink {
-	color: #7d79e9;
+	color: #0e4afb;
 }
 
 #shareProject {
@@ -435,7 +435,7 @@ img {
 
 .sidebarLink:hover {
 
-	color: #7d79e9 !important;
+	color: #0e4afb !important;
 }
 
 
@@ -483,21 +483,21 @@ img {
 	width: 65%;
 	line-height: 2;
 	font-size: 1.2em;
-	color: #808080;
+	color: #000000;
 }
-.contentParagraph a {color: #808080; text-decoration: underline;}
-.contentParagraph a:hover {color: #7d79e9; text-decoration: none;}
+.contentParagraph a {color: #000000; text-decoration: underline;}
+.contentParagraph a:hover {color:  #0e4afb; text-decoration: none;}
 
 .contentLink {
 
-	color: #808080 !important;
+	color: #000000 !important;
 	text-decoration: underline !important;
 
 }
 
 .contentLink:hover {
 
-	color: #7d79e9 !important;
+	color: #0e4afb !important;
 
 }
 
@@ -506,30 +506,44 @@ img {
 /* project footer */
 
 #projectFooter {
-
+	margin-bottom: 30px;
+	margin-top: 30px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 #projectFooterTitle {
-
+	width: 90%;
+	margin: 35px auto;
+	padding-top: 25px;
+	border-top: black solid 2px;
 	position: relative;
 	top:20px;
 }
 
-#projectSingleLink {
-
-	padding-top: 10px;
-	text-decoration: underline;
-	color: #7D79E9;
-	font-size: 1.5em;
+#primaryButton {
+	margin-top: 20px;
+	padding: 15px 60px 15px 60px;
+	background-color: #0e4afb;
+	color: #ffffff;
+	font-size: 1.1em;
 	position: relative;
     top: 5px;
 }
 
-#projectSingleBack {
+#secondaryButton {
+	margin-top: 20px;
+	padding: 5px 50px 5px 50px;
+	border: #0e4afb solid 3px;
+	background-color: #ffffff;
+	color: #0e4afb;
+	font-size: 1.1em;
+	position: relative;
+	top: 5px;
+}
 
+#projectSingleBack {
 	text-decoration: underline;
 	color: #707070;
 	cursor: pointer;
@@ -540,9 +554,8 @@ img {
 #greenArrow {
 
 	position: relative;
-	height: 55px;
-
-	top: 20px;
+	height: 22px;
+	top: -5px
 	z-index: 3000;
 
 }
@@ -551,7 +564,7 @@ img {
 
 #footerAccentLine {
 
-	border-bottom: 1px solid #59ff89;
+	border-bottom: 1px solid #000000;
 
 }
 
@@ -646,6 +659,10 @@ img {
 .iconFade {
 
 	width: 99%;
+}
+
+.iconFade path {
+	color: #0e4afb;
 }
 
 .fade-title,
@@ -1293,7 +1310,7 @@ img {
 	.accentLineIcon {
 
 		height: 1px;
-		width: 0%;
+		width: 0;
 
 
 	}

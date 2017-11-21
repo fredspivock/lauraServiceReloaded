@@ -54,10 +54,8 @@ lauraServiceControllers.controller('ProjectCtrl', ['$scope', '$http', '$routePar
 
     //Getting a individual
     $http.get('projects/' + $routeParams.id +'.json').success(function(data){
-
-      $scope.projectSingle = data;
-      $scope.description = data.description;
-
+        $scope.projectSingle = data;
+        $scope.description = data.description;
     });
 
     
@@ -96,8 +94,17 @@ lauraServiceControllers.controller('ProjectCtrl', ['$scope', '$http', '$routePar
 
     //For the More Work, gets main list
     $http.get('projects/homepageProjects.json').success(function(data){
+      var projectIndex = 0;
+        angular.forEach(data, function(project, index) {
+            if($routeParams.id === project.id) {
+              projectIndex = index;
+            }
+        });
 
-      $scope.projects = data;
+        var projects = data;
+        var projectEnd = projects.slice(projectIndex, projects.length);
+        projects = projects.slice(0, projectIndex);
+        $scope.projects = projectEnd.concat(projects);
     });
 
 
