@@ -1,0 +1,36 @@
+{
+	
+	"title": "Sparksheet",
+	"company": "FOR SPARKSHEET",
+	"year": "2013−2015",
+	"backgroundImage": "img/sparksheet/Normal-Sparksheet-1.jpg",
+	"backgroundImage2x": "img/sparksheet/2x-Sparksheet-1.jpg",
+	"description": "<p><a id=\"projectSingleLink\" target=\"_blank\" href=\"http://sparksheet.com/\">Sparksheet</a> is Spafax’s award-winning online magazine devoted to exploring the convergence of new media, marketing and content creation. As the designer of Sparksheet I participated in image conceptualization for feature articles and infographics. This role let me have fun with design, illustration and animation. Through collaboration with the editor and digital director we would conceptualize ideas for the visuals. With a chosen concept I was able to approach each graphic with the confidence to communicate the gist of an article in a visually compelling way.</p><p>One of my favourite projects for Sparksheet was an infographic of <a id=\"projectSingleLink\" target=\"_blank\" href=\"http://sparksheet.com/2014-fifa-world-cup-team-brand-index/\">The 2014 FIFA World Cup Team Brand Index</a>. We wanted to build an image that visualized which teams have the strongest branding. With this information we could compare it to their likelihood of winning the tournament and see if there was any correlation between performance and brand. We pulled data from key branding influences, like: the number of World Cup appearances, Google search results, social media popularity, player salaries and even the countries “brand”. With these numbers I built circle diagrams with layers relative in size to our data. The results, while somewhat subjective, made the trend clear that the popular brands were usually the best performing teams.</p>",
+	
+
+	"sidebar": {
+		"AGENCY": "Spafax",
+		"SERVICES" : "Visual Design<br/>Illustration<br/>Data Visualization<br/>Animation",
+		"CATEGORY" : "Website<br/>Banners<br/>Infographics<br/>Animation<br/>GIFs",
+		"AWARDS" : "Canadian Online Publishing Awards, 2015<br/>Infographic/Data Visualization:<br/><a class=\"sidebarLink\" href=\"http://sparksheet.com/infographic-year-content-media-marketing-2014/\" >The Year in Content, Media and Marketing 2014</a><br/>Nomination<br/><br/>The Eddies, 2014<br/>Best Standalone Digital Magazine, B2B:<br/><a class=\"sidebarLink\" href=\"http://sparksheet.com/2014-fifa-world-cup-team-brand-index/ \">The 2014 Fifa World Cup Team Brand Index</a><br/>WINNER (Gold)<br/><br/>Canadian Online Publishing Awards, 2014<br/>Best Article or Series:<br/><i>Should Coke Quit its Content Marketing Journey</i><br/>WINNER (Gold)<br/>Best Website Design:<br/>WINNER (Gold)<br/>Best Corporate Website:<br/>WINNER (Gold)<br/><br/>Stipso 2014<br/>Infographic of the Week<br/><a class=\"sidebarLink\" href=\"http://www.stipso.com/blog/2014/12/12/infographic-2014-marketing-sparksheet/\">The Year in Content, Media and Marketing 2014</a>",
+		"CREDITS" : "Charles Lim<br/>Sophie Woodrooffe<br/>Dan Levy<br/>Andrew Jeglum"
+	},
+
+	"link" : "sparksheet.com/",
+
+	"images": {
+		"desktop" : {
+
+			"img1x" : "img/sparksheet/Normal-Sparksheet-2.jpg",
+			"img2x" : "img/sparksheet/2x-Sparksheet-2.jpg"
+		},
+
+		"mobile" : {
+
+			"img1x" : "img/sparksheet/Normal-Sparksheet-3.jpg",
+			"img2x" : "img/sparksheet/2x-Sparksheet-3.jpg"
+		}
+	}
+
+	
+}

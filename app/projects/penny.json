@@ -1,0 +1,34 @@
+{
+	
+	"title": "Penny Black Media",
+	"company": "For Penny Black Media",
+	"year": "2014",
+	"backgroundImage": "img/penny/Normal-Penny-Black-Media-1.jpg",
+	"backgroundImage2x": "img/penny/2x-Penny-Black-Media-1.jpg",
+	"description": "<p>Penny Black Media is a distributor of independent feature films for the global airline market. They wanted a website to showcase their offerings in a new online format while retaining the familiarity of their brand identity. The site needed to allow their clients to easily find films in their ever-growing catalogue, and allow for both public and private access to film information and screeners. I provided this by continually tweaking and critiquing the design of the sitemap, wireframes and mockups until we were successful in providing an elegant and easy-to-use website.</p><p>By working closely with the Penny Black Media team in Southern California we solidified a relationship with another WPP company. After the unveiling of this new website Cathie Trotta, Managing Director for Penny Black Media, said <em>“Working with Spafax Interactive was a stimulating, collaborative experience. They successfully translated our vision into a look and feel that is perfectly on target with the Penny Black Media brand. We are more than pleased with our new website.</em>”</p>",
+
+	"sidebar": {
+		"AGENCY": "Spafax",
+		"SERVICES" : "UX/UI Design",
+		"CATEGORY" : "Website",
+		"CREDITS" : "Charles Lim<br/>Souni Belanger<br/>Long Nguyen<br/>Kristina Velan<br/>Ian Gamache"
+	},
+
+	"link" : "www.pennyblackmedia.com/",
+
+	"images": {
+
+		"phone": {
+
+			"img1x" : "img/penny/Normal-Penny-Black-Media-2.jpg",
+			"img2x" : "img/penny/2x-Penny-Black-Media-2.jpg"
+			},
+
+		"desktop": {
+			"img1x" : "img/penny/Normal-Penny-Black-Media-3.jpg",
+			"img2x" : "img/penny/2x-Penny-Black-Media-3.jpg"
+		}
+	}
+
+	
+}

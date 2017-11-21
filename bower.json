@@ -1,0 +1,22 @@
+{
+  "name": "LauraService",
+  "version": "0.0.0",
+  "homepage": "https://github.com/fredspivock/LauraService",
+  "authors": [
+    "fredspivock <fredspivock@gmail.com>"
+  ],
+  "description": "Laura's Website",
+  "main": "app/bower_componets",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

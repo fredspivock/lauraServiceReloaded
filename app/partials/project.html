@@ -1,0 +1,55 @@
+<div id="projectPage">
+	<div id="projectImageWrapper"><img class="img-responsive" ng-src="{{ projectSingle.backgroundImage }}" ng-srcset="{{ projectSingle.backgroundImage2x }} 2x, {{ projectSingle.backgroundImage }} 1x"></div>
+	<h1 id="title" class="centered">{{ projectSingle.title }}</h1>
+	<div class="accentLine centered">
+		<div class="accentItem sansSerif">{{ projectSingle.company }}</div>
+		<div id="accentCircle">&bullet;</div>
+		<div class="accentItem sansSerif"> {{ projectSingle.year }}</div>
+		<div id="shareProject">
+			<div class="share-container">
+				<span class="social-share-toggle" id="shareLink"><img id="shareIcon" src="img/icon/share-icon.svg"> Share</span>
+				<ul class="social-share-list">
+			    <li class="social-share-item"><a class="social-share-link facebook" target="_blank" href="#"> <img src="img/icon/share/facebook-icon-purple.svg" class="social-share-image"/></a></li>
+			    <li class="social-share-item"><a class="social-share-link twitter" target="_blank" href="#"> <img src="img/icon/share/twitter-icon-purple.svg" class="social-share-image"/></a></li>
+			    <li class="social-share-item"><a class="social-share-link email" target="_blank" href="#"> <img src="img/icon/share/email-icon-purple.svg" class="social-share-image"/></a></li>
+			  </ul>
+			</div>
+		</div>
+	</div>
+	<div id="contentSection" class="containerFlex centered">
+		<div ng-bind-html="description" class="padding-bottom contentParagraph"></div>
+		<div id="sidebar" class="padding-bottom">
+			<ul ng-repeat="(key, item) in projectSingle.sidebar">
+				<li class="sidebarTitle sansSerif" ng-if="key !== 'See More'">{{ key }}</li>
+				<li class="sideBarSeeMore" ng-if="key === 'See More'"><a ng-click="seeMore()" class="seeMoreLink">See More Awards</a></li>
+				<li ng-if="key !== 'See More'" class="sidebarInfo" ng-bind-html="item"></li>
+				<li ng-if="key === 'See More'" ng-bind-html="item" class="sidebarInfo hiddenSideBar"></li>
+				<br ng-if="key === 'See More'"/>
+
+
+			</ul>
+		</div>
+	</div>
+
+	<div class="centered" ng-repeat="image in projectSingle.images">
+		<img class="img-responsive padding-bottom" ng-src="{{ image.img1x }}" ng-srcset="{{ image.img1x}} 1x, {{image.img2x}} 2x">
+	</div>
+
+</div>
+<div id="projectFooter">
+	<div><a id="projectSingleBack" ng-click='toPageTop()' class="sansSerif">BACK TO TOP</a></div>
+	<div><a id="projectSingleLink" target="_blank" href="http://{{ projectSingle.link }}">{{ projectSingle.link }}</a></div>
+	<h1 id="projectFooterTitle">More Work</h1>
+	<img id="greenArrow" src="img/icon/Arrow.gif">
+</div>
+
+<div class="projects centered">
+	<ul>
+		<li ng-repeat="project in projects">
+			<div class="projectImage image-wrapper">
+				<a href="#/projects/{{ project.id }}"><p class="projectName sansSerif">{{project.name}}</p>
+					<img class="img-responsive image" ng-src="{{ project.imageUrl }}" ng-srcset="{{ project.imageUrl }} 1x, {{ project.imageUrl2x }} 2x"></a>
+			</div>
+		</li>
+	</ul>
+</div>

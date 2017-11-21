@@ -1,0 +1,37 @@
+{
+
+	"title": "The Airline Passenger Experience Association",
+	"company": "FOR APEX",
+	"year": "2014",
+	"backgroundImage": "img/airline/Normal-APEX-1.jpg",
+	"backgroundImage2x": "img/airline/2x-APEX-1.jpg",
+	"description": "<p>The Airline Passenger Experience Association is a network of the world's leading airlines, suppliers and related companies committed to elevating the level of airline passenger experience. The association offers members opportunities to excel in the industry by keeping them current with the latest industry news, trends and developments. APEX helps its members form new relationships with businesses and colleagues from around the world at their annual conferences.</p><p>Spafax publishes the APEX Experience magazine, and the team wanted to establish an online environment for its written content and also merge the magazine with the corporate website. We designed a new site situating APEX as an industry hub for passenger experience news. I was involved with the UI/UX, and visual design as well as the complex task of figuring out how to build a future-friendly site within the constraints of a CMS with limited design customization. One requirement from the board members was to mimic a magazine-like reading experience. I accomplished this by using a full-screen cover image as a lead-in to the site below after thorough UX research and testing on landing pages and alternatives. The splash image links to the latest issue and prompts users to register for upcoming APEX conferences. We also built a filtering mechanism to organize the prominent news feed; and by featuring social media and related-stories widgets, we helped to retain user activity within the site.</p>",
+	
+	"sidebar": {
+		"AGENCY": "Spafax",
+		"SERVICES" : "UX/UI Design",
+		"CATEGORY" : "Website",
+		"CREDITS" : "Terri Potratz<br/>Al St-Germain<br/>François Hoang<br/>Andrew Jeglum<br/>Hope Little<br/>Souni Belanger<br/>Steve Mandamatiotis<br/>Mélisa Discepola<br/>Long Nguyen<br/>Charles Lim<br/>Katie Sehl<br/>Jessica Sammut"
+	},
+
+	"link" : "apex.aero/",
+
+	"images": {
+		
+
+		"desktop" : {
+
+			"img1x" : "img/airline/Normal-APEX-2.jpg",
+			"img2x" : "img/airline/2x-APEX-2.jpg"
+		},
+
+		"desktop2" : {
+
+			"img1x" : "img/airline/Normal-APEX-3.jpg",
+			"img2x" : "img/airline/2x-APEX-3.jpg"
+		}
+
+	}
+
+	
+}

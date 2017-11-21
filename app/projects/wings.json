@@ -1,0 +1,37 @@
+{
+	
+	"title": "Air Canada’s Earn Your Wings",
+	"company": "For Air Canada",
+	"year": "2014 (2012, 2013)",
+	"backgroundImage": "img/wings/Normal-Earn-Your-Wings-1.jpg",
+	"backgroundImage2x": "img/wings/2x-Earn-Your-Wings-1.jpg",
+	"description": "<p>In its third edition, the award-winning Earn Your Wings is a competition made exclusively for Air Canada’s Altitude members. The game offers badges and points for completing tasks based on actual flight travel. Through incentives like earned Aeroplan miles&#8212;including a jackpot for the top 20 participants&#8212;our goal was to encourage frequent flyers to book more flights with Air Canada.</p><p>I was involved with the design of the previous instalments, but this time my role was to oversee the site redesign. I worked with a designer and illustrator to update visual assets, enhance the “User Profile” and “How to Play” sections. By adding stats and infographics we saw an increase in participant engagement, with users returning to the site more frequently to check their progress and standing. The site saw a 56 percent increase in the average number of badges earned, and an average increase of 12 percent more airport visits per user. It amplified competition amongst users, and Air Canada saw an overwhelming 875 percent ROI and reached more than 20,000 top-tier flyers.</p>",
+	
+	"sidebar": {
+		"AGENCY": "Spafax",
+		"SERVICES" : "UX/UI<br/>Art Direction<br/>Identity<br/>Illustration",
+		"CATEGORY" : "Website<br/>Game<br/>Loyalty Program",
+		"RECOGNITION" : "The Loyalty 360 Awards 2015<br/><a class=\"sidebarLink\" href=\"http://www.spafax.com/flying-to-first-in-mins-editorial-design-awards\" >Best Loyalty or Rewards Program</a><br/>WINNER (Platinum)<br/><br/>COLLOQUY Recognizes Award 2014<br/><a class=\"sidebarLink\" href=\"http://www.spafax.com/flying-to-first-in-mins-editorial-design-awards\" >Gamification Promotion</a><br/>WINNER<br/><br/>The Loyalty 360 Awards 2014<br/><a class=\"sidebarLink\" href=\"http://www.spafax.com/flying-to-first-in-mins-editorial-design-awards\" >Best Technology in Loyalty Marketing</a><br/>WINNER (Bronze)<br/><br/>Min Editorial & Design Awards 2013<br/><a class=\"sidebarLink\" href=\"http://www.spafax.com/flying-to-first-in-mins-editorial-design-awards\" >Special Online Section / Microsite</a><br/>WINNER (First Place)<br/><br/>",
+		"See More" : "<a class=\"sidebarLink\" target=\"_blank\" href=\"http://www.spafax.com/spafax-wins-nine-awards-at-2013-pearl-awards/\" >Best Overall Web Design</a><br/>WINNER (Silver)<br/><br/>International Content Marketing Awards 2013<br/>Best Travel and Leisure Category<br/><a class=\"sidebarLink\" href=\"http://www.spafax.com/spafax-air-canada-campaigns-shortlisted-for-five-international-content-awards\" >Pearl Awards 2013</a><br/>Shortlisted<br/><br/>Eddies & Ozzies 2013<br/><a class=\"sidebarLink\" href=\"http://www.spafax.com/spafax-wins-3-golds-at-the-2013-eddie-ozzie-awards/\" >Best Site Design</a><br/>Finalist<br/><br/>Infopresse / Boomerang 2013<br/>Online Campaign<br/>Shortlisted<br/><br/>Min’s Digital Awards 2013<br/>Contest / Online Game<br/>Honourable Mention<br/>",
+		"CREDITS" : "Charles Lim<br/>Jasmin Legatos<br/>Lori Morgan<br/>Tina Sequeira<br/>Arjun Basu<br/>Ilana Weitzman<br/>Andrew Jeglum<br/>Adrian Kronowetter<br/>Ariane Boisvert<br/>Matthew Fox<br/>Fraser Ballard<br/>Long Nguyen<br/>Mélisa Discepola<br/>Christopher Waldau<br/>François Hoang<br/>Adrian Mellognio<br/>Kristina Velan"
+	},
+
+	"link" : "earnyourwings.aircanada.com",
+
+	"images": {
+
+		"phone" : {
+
+			"img1x" : "img/wings/Normal-Earn-Your-Wings-2.jpg",
+			"img2x" : "img/wings/2x-Earn-Your-Wings-2.jpg"
+			},
+
+		"desktop" : {
+
+			"img1x" : "img/wings/Normal-Earn-Your-Wings-3.jpg",
+			"img2x" : "img/wings/2x-Earn-Your-Wings-3.jpg"
+		}
+	}
+
+	
+}

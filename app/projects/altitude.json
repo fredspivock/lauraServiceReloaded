@@ -1,0 +1,65 @@
+{
+	
+	"title": "The Altitude Community",
+	"company": "FOR AIR CANADA",
+	"year": "2014−2015",
+	"backgroundImage2x": "img/attitude/2x-Altitude-Community-1.jpg",
+	"backgroundImage": "img/attitude/Normal-Altitude-Community-1.jpg",
+	"description": "<p>The Altitude Community is an exclusive platform where Air Canada’s frequent flyers can share travel tips. Members can make lists of their favourite hotels, bars, restaurants, and sights anywhere in the world or browse recommendations from other members. The rigorous planning, execution and testing of the beta site took more than a year. Designing a social media platform from scratch required extensive research and a comprehensive competitive analysis of other social networks. Rather than trying to reinvent the wheel we took insight and solutions from our research and reused or reconfigured simple patterns and features that we observed across multiple social networks.</p><p>I acted as the art director for the project and assisted with concept development and photo research. One of my bigger UI/UX tasks was to make the complex “Create a List” process easier for users. I sketched multiple user-interface patterns and came up with a number of solutions that underwent rigorous user-testing sessions. The result was a custom, easy-to-follow step-by-step process for list creation. The site currently has 11000 registered users and is an ongoing and evolving Air Canada product.</p>",
+
+	"sidebar": {
+		"AGENCY": "Spafax",
+		"CATEGORY" : "Social network<br/>Website",
+		"SERVICES" : "UX/UI<br/>Art Direction<br/>Illustration<br/>Photo Research<br/>Prototyping<br/>User-Testing",
+		"RECOGNITION" : "Showcased at a Mindshare Canada Huddle",
+		"CREDITS" : "Jean-François Légaré<br/>Charles Lim<br/>Arjun Basu<br/>Ilana Weitzman<br/>Andrew Jeglum<br/>Long Nguyen<br/>Mélisa Discepola<br/>Christopher Waldau<br/>François Hoang<br/>Hope Little<br/>Adrian Mellognio"
+	},
+
+	"link" : "altitude-community.aircanada.com",
+
+	"images": {
+
+		"phone": {
+
+				"img1x" : "img/attitude/Normal-Altitude-Community-2.jpg",
+				"img2x" : "img/attitude/2x-Altitude-Community-2.jpg"
+			},
+
+		"desktop": {
+
+				"img1x" : "img/attitude/Normal-Altitude-Community-3.jpg",
+				"img2x" : "img/attitude/2x-Altitude-Community-3.jpg"
+		},
+
+		
+		"desktop2": {
+
+				"img1x" : "img/attitude/Normal-Altitude-Community-4.jpg",
+				"img2x" : "img/attitude/2x-Altitude-Community-4.jpg"
+		},
+
+		"desktop3": {
+
+				"img1x" : "img/attitude/Normal-Altitude-Community-4.jpg",
+				"img2x" : "img/attitude/2x-Altitude-Community-4.jpg"
+		},
+
+		"desktop4": {
+
+			"img1x" : "img/attitude/Normal-Altitude-Community-5.jpg",
+			"img2x" : "img/attitude/2x-Altitude-Community-5.jpg"
+		},
+
+		"desktop4": {
+
+			"img1x" : "img/attitude/Normal-Altitude-Community-6.jpg",
+			"img2x" : "img/attitude/2x-Altitude-Community-6.jpg"
+		}			
+	
+
+
+		
+	}
+
+	
+}

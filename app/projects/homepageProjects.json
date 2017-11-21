@@ -1,0 +1,50 @@
+[
+    {
+        "id": "altitude", 
+        "imageUrl": "img/attitude/Normal-Altitude-Community-1.jpg",
+        "imageUrl2x": "img/attitude/2x-Altitude-Community-1.jpg", 
+        "name": "The Altitude Community"
+    }, 
+
+    {
+        "id": "mercedes", 
+        "imageUrl": "img/mercedes/Normal-Mercedes-Benz-Magazine-1.jpg",
+        "imageUrl2x": "img/mercedes/2x-Mercedes-Benz-Magazine-1.jpg", 
+        "name": "Mercedes-Benz Magazine Canada"
+    },
+
+    {
+        "id": "wings", 
+        "imageUrl": "img/wings/Normal-Earn-Your-Wings-1.jpg", 
+        "imageUrl2x": "img/wings/2x-Earn-Your-Wings-1.jpg", 
+        "name": "Earn Your Wings"
+    },
+
+    {
+        "id": "restaurants", 
+        "imageUrl": "img/restaurants/Normal-Canadas-Best-New-Restaurant-1.jpg",
+        "imageUrl2x": "img/restaurants/2x-Canadas-Best-New-Restaurant-1.jpg",  
+        "name": "Canada’s Best New Restaurants"
+    },
+
+    {
+        "id": "penny", 
+        "imageUrl": "img/penny/Normal-Penny-Black-Media-1.jpg", 
+        "imageUrl2x": "img/penny/2x-Penny-Black-Media-1.jpg", 
+        "name": "Penny Black Media"
+    },
+
+    {
+        "id": "sparksheet", 
+        "imageUrl": "img/sparksheet/Normal-Sparksheet-1.jpg", 
+        "imageUrl2x": "img/sparksheet/2x-Sparksheet-1.jpg", 
+        "name": "Sparksheet"
+    },
+
+    {
+        "id": "airline", 
+        "imageUrl": "img/airline/Normal-APEX-1.jpg",
+        "imageUrl2x": "img/airline/2x-APEX-1.jpg", 
+        "name": "The Airline Passenger Experience"
+    }
+]

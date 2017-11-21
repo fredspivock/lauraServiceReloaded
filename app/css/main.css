@@ -1,0 +1,1353 @@
+p {margin-bottom: 2em;}
+
+.email-link:hover {color: #7d79e9}
+
+.share-container {
+  position: relative;
+  text-align: right;
+}
+.social-share-image {
+  width: 24px;
+}
+.social-share-item {
+  float: left;
+  margin-left: 10px;
+}
+.social-share-list {
+  list-style: none;
+  opacity: 0;
+  margin-top: -22px;
+  padding-left: 0;
+  pointer-events: none;
+  /*position: absolute;*/
+  top: 0;
+  right: 0;
+  z-index: 50;
+  transition: 0.3s;
+}
+@media (max-width: 520px) {.social-share-list {margin-top: -1px; opacity: 1; pointer-events: auto;}}
+.social-share-list.show-social-share {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(-70px);
+}
+.social-share-toggle {
+  /*background: #ddd;*/
+  cursor: pointer;
+  display: block;
+  /*padding: 10px 20px;*/
+  padding-top 10px
+  position: absolute;
+  top: -5px;
+  right: 0;
+  z-index: 100;
+  text-decoration: none;
+  white-space: nowrap;
+}
+@media (max-width: 520px) {.social-share-toggle {display: none;}}
+.social-share-toggle:hover {text-decoration: underline;}
+
+
+
+/* Fonts */
+
+.serifText {
+
+	font-family: 'PT Serif', serif;
+
+}
+
+.sansSerif {
+
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+
+}
+
+/* links */
+a:link, a:visited, a:hover, a:active {
+  color: #252525;
+  text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} 
+
+li {
+
+}
+
+h1 {
+
+	font-size: 5em;
+	color: #252525;
+	
+}
+
+/* Stuff for the animated nav Bar */
+
+
+#header-wrap {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 2000;
+    height: 100px; 
+    overflow: visible !important;
+    /*-webkit-transition: background-color 200ms linear;
+    -moz-transition: background-color 200ms linear;
+    -o-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear; */
+    transition: 0.5s ease;
+}
+
+/*clear version */
+
+#header-wrap.clear {
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0);
+    -webkit-transition: background-color 200ms linear;
+    -moz-transition: background-color 200ms linear;
+    -o-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+    transition: 0.5s ease;
+}
+
+.scrolled.clear#header-wrap {
+  height: 50px;
+  background-color: rgba(255,255,255,1);
+  transition: background-color 1200ms linear;
+  transition: 0.5s ease;
+}
+
+.clear#header-wrap .navLinksA {
+
+	color: white;
+}
+
+a.navLinksA {color: rgb(112,112,112); transition: color .3s;}
+a.navLinksA.active {border-bottom: 1px solid rgb(89, 255, 137);}
+a.navLinksA:hover {border-bottom: 1px solid rgb(89, 255, 137);}
+
+
+/* Nav Bar */
+
+#icon {
+
+	width: 110px;
+	transition: 0.5s ease;
+	
+}
+
+.iconSpan {
+
+	position: absolute;
+	left: 5%;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;;
+	transition: 0.5s ease;
+	top:45px;
+}
+
+#navSide {
+
+	position: absolute;
+	right: 5%;
+	bottom: 10%;
+	display: inline-flex; display: -webkit-inline-flex;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	transition: 0.5s ease;
+}
+
+.navList {
+	padding-left: 7px;
+	padding-right: 7px;
+	transition: 0.5s ease; 
+}
+
+/* Scrolled Nav CSS */
+
+
+
+.scrolled#header-wrap {
+  height: 50px;
+  color: rgba(0,0,0,1);
+  box-shadow: 3px 3px 5px rgba(160, 160, 160, 0.15);
+  transition: 0.5s ease;
+}
+
+.scrolled#header-wrap #icon{
+
+	position: absolute;
+	width: 40px;
+	transition: 0.5s ease;
+	bottom: -2%;
+}
+
+.scrolled#header-wrap .iconSpan {
+	position: absolute;
+	left: 5%;
+	bottom: 20%;
+	top: 12px;
+	transition: 0.5s ease;
+
+}
+
+.scrolled#header-wrap #navSide {
+
+	right: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 15px;
+	text-align: right;
+	transition: 0.5s ease;
+}
+
+
+.scrolled#header-wrap .navLinksA {
+
+	color: rgb(112, 112, 112);
+	/*transition: 0.5s ease;*/
+}
+
+
+.scrolled.clear#header-wrap .navLinksA {
+
+	/*color: rgb(112, 112, 112);*/
+	/*transition: 0.5s ease;*/
+}
+
+
+
+
+/* For the home Page */
+
+.centered {
+
+		width: 90%;
+		max-width: 1920px;
+		margin-left: auto;
+		margin-right: auto;
+
+}
+
+.padding-bottom {
+
+	padding-bottom: 20px;
+}
+
+.padding-top {
+
+	padding-top: 20px;
+}
+
+.projectName {
+
+	position: absolute;
+	text-align:center;
+	width: 100%;
+	top: 43%;
+	color: white;
+	font-size: 2em;
+	text-shadow: 0px 0px 18px rgba(32,32,32, 0.7);
+	z-index: 1000;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+}
+
+.projectImage {
+
+	position: relative;
+	width: 100%;
+	border: 0;
+	padding-top: 0;
+}
+
+.image-wrapper img  {
+
+    transition: all  1s ease;
+
+
+}
+
+.image-wrapper:hover img {
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+    transform:scale(1.1);
+}
+
+.image-wrapper {
+
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+
+
+img {
+	padding: 0;
+	border: 0;
+}
+
+
+#homepageHead {
+	height: 1000px;
+	position: relative;
+	transition: .3s;
+}
+
+#homepageHeadText {
+
+	text-align:left;
+	display:inline-block;
+	position: absolute;
+	bottom: 0%;
+
+}
+
+#homepageName {
+
+	color: #808080;
+	
+}
+
+/* Projets */
+
+#title {
+
+	padding-top: 5px;
+	text-align: left;
+	padding-bottom: 10px;
+
+}
+
+/* Accent Line */
+
+.accentLine {
+
+	border-top: 1px solid #59ff89;
+	border-bottom: 1px solid #59ff89;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#accentCircle {
+
+	color: #8D8DE2;
+	display: inline-block;
+}
+
+.accentItem {
+
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #808080;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-size: 1.1em;
+}
+
+
+#shareIcon {
+
+	height: 20px;
+}
+
+#shareLink {
+	color: #7d79e9;
+}
+
+#shareProject {
+	
+	display: inline-block;
+	float: right;
+}
+
+/* SideBar */
+
+.sidebarTitle {
+
+	display: block;
+	letter-spacing: .5px;
+	font-size: 1em;
+	text-transform: uppercase;
+
+}
+
+.sidebarInfo {
+
+	padding-bottom: 10px;
+	display: block;
+	color: #808080;
+}
+#iconAboutList {
+
+	display: inline-block;
+}
+
+.iconLiAbout {
+	display: inline-block;
+}
+
+.aboutIcon {
+
+	padding: 5px;
+	height: 35px;
+}
+
+
+/* Flexbox Description SideBar */
+.containerFlex {
+
+	padding-top: 25px;
+	display: -webkit-flex; display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap; -webkit-flex-wrap: wrap;
+	padding-bottom: 40px;
+}
+
+#sidebar {
+
+	order: 2; -webkit-order: 2;
+	width: 25%;
+
+}
+
+
+.sidebarLink {
+
+	color: #808080 !important;
+	text-decoration: underline !important;
+}
+
+.sidebarLink:hover {
+
+	color: #7d79e9 !important;
+}
+
+
+/* See More items */
+.sideBarSeeMore {
+
+	text-decoration: underline;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-bottom: 25px;
+
+}
+
+.seeMoreLink {
+
+	color: #808080 !important;
+}
+
+.seeMoreLink:hover {
+
+	color: #7d79e9 !important;
+
+}
+
+
+/* See More Description */
+
+.hiddenSideBar {
+
+	display: none;
+
+}
+
+
+.seeMoreLink {
+
+	cursor: pointer;
+	color: #7d79e9;	
+}
+
+
+.contentParagraph {
+	order: 1; -webkit-order: 1;
+	width: 65%;
+	line-height: 2;
+	font-size: 1.2em;
+	color: #808080;
+}
+.contentParagraph a {color: #808080; text-decoration: underline;}
+.contentParagraph a:hover {color: #7d79e9; text-decoration: none;}
+
+.contentLink {
+
+	color: #808080 !important;
+	text-decoration: underline !important;
+
+}
+
+.contentLink:hover {
+
+	color: #7d79e9 !important;
+
+}
+
+
+
+/* project footer */
+
+#projectFooter {
+
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#projectFooterTitle {
+
+	position: relative;
+	top:20px;
+}
+
+#projectSingleLink {
+
+	padding-top: 10px;
+	text-decoration: underline;
+	color: #7D79E9;
+	font-size: 1.5em;
+	position: relative;
+    top: 5px;
+}
+
+#projectSingleBack {
+
+	text-decoration: underline;
+	color: #707070;
+	cursor: pointer;
+	z-index: 20010;
+}
+
+
+#greenArrow {
+
+	position: relative;
+	height: 55px;
+
+	top: 20px;
+	z-index: 3000;
+
+}
+
+/* Footer Partial */
+
+#footerAccentLine {
+
+	border-bottom: 1px solid #59ff89;
+
+}
+
+#footerIconWrapper {
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#footerIcon {
+
+	width: 45px;
+}
+
+.footerText {
+
+	text-align: center;
+}
+
+ .footerTextItem {
+
+ 	padding: 15px;
+ 	color: #707070;
+ 	font-size: 1em;
+	display: inline-flex; display: -webkit-inline-flex;
+ }
+
+#iconList {
+
+	text-align: center;
+}
+
+.icon {
+
+	padding: 20px;
+	color: #B2B2B2;
+	height: 70px;
+}
+
+ .iconLi {
+
+ 	display: inline-flex; display: -webkit-inline-flex;
+ }
+
+#portraitLink {
+
+	color: white;
+	cursor: pointer;
+	position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 43%;
+  font-size: 2em;
+  text-shadow: 0px 0px 18px rgba(32,32,32, 0.7);
+  z-index: 1000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
+
+
+ /*ABOUT PAGE ICONS */
+
+.aboutIconContainer {
+
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.box-fade {
+
+	display: inline-block;
+	/*display: inline-flex; display: -webkit-inline-flex;
+	flex-wrap: wrap; -webkit-flex-wrap: wrap; */
+	margin: 0 auto;
+	vertical-align: top;
+	width: 32%;
+	height: auto;
+
+}
+
+.iconFadeContainer {
+
+	transition: 0.5s;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.iconFade {
+
+	width: 99%;
+}
+
+.fade-title,
+.fade-description {
+
+	transition: 0.5s;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+
+
+.fade-title {
+
+	color: #808080;
+	padding-bottom: 10px;
+
+}
+
+
+.fade-description {
+	opacity: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.fade-top-text {
+
+	color: #808080;
+
+}
+
+
+.iconLinkButton {
+
+	display: block;
+}
+
+
+/*BOX Fade ON HOVER */
+
+.box-fade:hover .fade-description {
+
+	opacity: 1;
+	-webkit-transform: translate(0, -200px);
+	-ms-transform: translate(0, -200px);
+	transform: translate(0, -200px);
+
+
+}
+
+.box-fade:hover .iconFadeContainer {
+
+	opacity: 0;
+	-webkit-transform: translate(0, -200px);
+	-ms-transform: translate(0, -200px);
+	transform: translate(0, -200px);
+}
+
+.box-fade:hover .fade-title {
+
+	-webkit-transform: translate(0, -200px);
+	-ms-transform: translate(0, -200px);
+	transform: translate(0, -200px);
+}
+
+.workedWith {
+
+	padding-top: 100px;
+}
+
+
+.iconFadeBottomText {
+
+
+	text-transform: uppercase;
+	padding-top: 12px;
+}
+
+.accentLineIcon {
+
+	
+	border-left: 1px solid grey;
+	width: 1%;
+	height: 210px;
+	display: inline-block;
+	position: absolute;
+}
+
+
+
+/* about logos */
+
+.clients-list {
+	/* flex order is important */
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+	-webkit-align-items: center; 
+	align-items: center; 
+	-webkit-flex-wrap: wrap; 
+	flex-wrap: wrap; 
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+.clients-list img {max-width: 100%;}
+.clients-item {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center; 
+	justify-content: center; 
+	padding: 10px; 
+	text-align: center; 
+	width: 25%; 
+	height: 100px;
+
+}
+.clients-item.air-canada {-webkit-justify-content: flex-start; justify-content: flex-start;}
+.clients-item.air-canada img {padding-top: 20px;}
+.clients-item.apex img {width: 40%;}
+.clients-item.cinema-du-quebec img {width: 55%;}
+.clients-item.enroute {-webkit-justify-content: flex-end; justify-content: flex-end;}
+.clients-item.enroute img {width: 90%;}
+.clients-item.filmbank {-webkit-justify-content: flex-start; justify-content: flex-start;}
+.clients-item.filmbank img {width: 95%;}
+.clients-item.logistik img {width: 88%;}
+.clients-item.mercedes-benz img {width: 90%;}
+.clients-item.penny-black-media {-webkit-justify-content: flex-end; justify-content: flex-end; height: 130px;}
+.clients-item.penny-black-media img {width: 75%;}
+.clients-item.spafax {-webkit-justify-content: flex-start; justify-content: flex-start;}
+.clients-item.spafax img {width: 55%;}
+.clients-item.sparksheet img {width: 80%; padding-top: 20px}
+.clients-item.vancouver-island-university img {width: 100%; padding-top: 20px;}
+.clients-item.vista-jet {-webkit-justify-content: flex-end; justify-content: flex-end;}
+.clients-item.vista-jet img {width: 80%; padding-top: 10px;}
+
+
+
+.tintPortrait {
+
+	background: rgba(0, 0, 0, 1);
+	margin-bottom: 35px;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.clients-underline4 {
+
+	border-bottom: 1px solid#252525;
+	width: 100%;
+	display: inline;
+}
+
+.clients-underline3 {
+
+	border-bottom: 1px solid #252525;
+	width: 100%;
+	display: none;
+}
+
+
+.clients-underline2 {
+
+	border-bottom: 1px solid #252525;
+	width: 100%;
+	display: none;
+}
+
+
+
+/* 1080 desktop screens */
+@media (max-width: 1920px) {
+
+	/*  Image Size*/
+
+	.tinted {
+
+		height: 600px;
+		width: 100%;
+
+	}
+
+
+	.aboutIconContainer {
+
+		height: 240px;
+	}
+
+	.iconFade  {
+
+		height: 200px;
+	}
+
+	.box-fade:hover .fade-description {
+
+		opacity: 1;
+		transform: translate(0, -150px);
+		-webkit-transform: translate(0, -150px);
+		-ms-transform: translate(0, -150px);
+
+
+	}
+
+	.box-fade:hover .iconFadeContainer {
+
+		opacity: 0;
+		transform: translate(0, -150px);
+		-webkit-transform: translate(0, -150px);
+		-ms-transform: translate(0, -150px);
+	}
+
+	.box-fade:hover .fade-title {
+
+		transform: translate(0, -150px);
+		-ms-transform: translate(0, -150px);
+		-webkit-transform: translate(0, -150px);
+	}
+
+	#icon {
+
+		width: 90px;
+		
+	}
+
+	.iconSpan {
+
+		top:40px;
+	}
+
+	h1 {
+
+		font-size: 4em;
+	}
+
+	
+
+
+}
+
+@media (max-width: 1337px) {
+
+	/*  Image Size*/
+
+	.tinted {
+
+		height: 400px;
+		width: 100%;
+
+	}
+
+
+	.iconFade  {
+
+		height: 160px;
+	}
+
+	h1 {
+
+		font-size: 4em;
+
+	}
+
+
+
+}
+
+
+@media (max-width: 900px) {
+
+	/*  Image Size*/
+
+	.tinted {
+
+		height: 300px;
+		width: 100%;
+
+	}
+
+
+
+
+	.accentLineIcon {height: 260px;}
+
+
+	#header-wrap {
+  		height: 50px;
+  		color: rgba(0,0,0,1);
+  		box-shadow: 3px 3px 5px rgba(160, 160, 160, 0.15);
+  		transition: 0.5s ease;
+	}
+
+	#header-wrap #icon{
+
+		position: absolute;
+		width: 40px;
+		transition: 0.5s ease;
+		bottom: -2%;
+	}
+
+	#header-wrap .iconSpan {
+		position: absolute;
+		left: 5%;
+		bottom: 20%;
+		top: 12px;
+		transition: 0.5s ease;
+
+	}
+
+	#header-wrap #navSide {
+
+		right: 5%;
+		margin-left: auto;
+		margin-right: auto;
+		bottom: 15px;
+		text-align: right;
+		transition: 0.5s ease;
+	}
+
+
+	#header-wrap .navLinksA {
+
+		/*color: rgb(112, 112, 112);*/
+		/*transition: 0.5s ease;*/
+	}
+
+	#header-wrap.clear {
+    	width: 100%;
+    	position: fixed;
+    	background-color: rgba(255,255,255,1);
+   		-webkit-transition: background-color 200ms linear;
+    	-moz-transition: background-color 200ms linear;
+    	-o-transition: background-color 200ms linear;
+    	-ms-transition: background-color 200ms linear;
+    	transition: background-color 200ms linear;
+    	transition: 0.5s ease;
+	}
+
+
+	.clear#header-wrap .navLinksA {
+
+		/*color: rgb(112, 112, 112);*/
+	}
+
+	#headerSpaceTop {
+
+		height: 50px;
+	}
+
+
+
+
+
+}
+
+@media (max-width: 785px) {
+
+	
+
+	.logo {
+
+		width: 33%;
+	}
+
+
+
+	.clients-item {width: 33.3%;}
+	.clients-item.cinema-du-quebec {-webkit-justify-content: flex-end; justify-content: flex-end;}
+	.clients-item.enroute {-webkit-justify-content: flex-start; justify-content: flex-start;}
+	.clients-item.filmbank {-webkit-justify-content: center; justify-content: center;}
+	.clients-item.logistik {-webkit-justify-content: flex-end; justify-content: flex-end;}
+	.clients-item.mercedes-benz {-webkit-justify-content: flex-start; justify-content: flex-start;}
+	.clients-item.penny-black-media {-webkit-justify-content: center; justify-content: center;}
+	.clients-item.spafax {-webkit-justify-content: flex-end; justify-content: flex-end;}
+	.clients-item.sparksheet {-webkit-justify-content: flex-start; justify-content: flex-start;}
+
+	.clients-underline3 {
+
+		border-bottom: 1px solid #707070;
+		width: 100%;
+		display: inline;
+	}
+	.clients-underline2 {
+
+		border-bottom: 1px solid #707070;
+		width: 100%;
+		display: none;
+	
+	}
+
+	.clients-underline4 {
+
+		border-bottom: 1px solid #707070;
+		width: 100%;
+		display: none;
+	
+	}
+
+	/* What I do best icons */
+
+	.aboutIconContainer {
+
+		height: 450px;
+	}
+
+	.iconFade {
+
+		height: 90px;
+	}
+
+
+	.fade-description {
+
+		padding-left: 0;
+		padding-right: 0;
+		opacity: 1;
+
+	}
+
+.box-fade:hover .fade-description {
+
+		opacity: 1;
+		transform: translate(0, 0);
+		-webkit-transform: translate(0, 0);
+		-ms-transform: translate(0, 0);
+
+
+	}
+
+	.box-fade:hover .iconFadeContainer {
+
+		opacity: 1;
+		transform: translate(0, 0);
+		-webkit-transform: translate(0, 0);
+		-ms-transform: translate(0, 0);
+	}
+
+	.box-fade:hover .fade-title {
+
+		transform: translate(0, 0);
+		-ms-transform: translate(0, 0);
+		-webkit-transform: translate(0, 0);
+	}
+
+	.accentLineIcon {
+
+	
+		border-left: 1px solid grey;
+		width: 1px;
+		height: 220px;
+		display: inline-block;
+		position: absolute;
+	}
+
+	.fade-description {
+
+		width: 95%;
+	}
+
+	.workedWith {
+		padding-top: 0px;
+
+	}
+
+
+
+}
+
+
+@media (max-width: 680px) {
+
+	.tinted {
+
+		height: 200px;
+		width: 100%;
+
+	}
+
+	.contentParagraph {
+
+		width: auto;
+	}
+
+	.logo {
+
+		width: 33%;
+	}
+
+	.accentLineIcon {height: 320px;}
+
+	#sidebar {
+
+		order: 2; -webkit-order:2;
+		width: 100%;
+
+	}
+
+}
+
+/* too narrow to support 2 columns */
+@media (max-width: 655px) {
+
+	/*  Single Project Description and sidebar */
+
+	#sidebar {
+
+		order: 2; -webkit-order:2;
+		width: 100%;
+
+	}
+
+	#description {
+
+		order: 1; -webkit-order: 1;
+		width: 100%;
+	}
+
+	h1 {
+
+		font-size: 2em;
+	}
+
+
+	.projectName  {
+
+		font-size: 1.5em;
+
+	}
+
+	.logoContainer {
+
+		display: block;
+		font-size: 0px;
+	}
+
+	.logo {
+		display: inline-block;
+		width: 50%;
+	}
+
+	.logoAccentLine {
+
+		height: 50px;
+	}
+
+
+
+}
+
+@media (max-width: 470px) {
+
+.tinted {
+
+		height: 100px;
+		width: 100%;
+
+	}
+
+
+	.logo {
+
+		width: 50%;
+	}
+
+
+	.clients-item {width: auto;}
+	.clients-item.air-canada {padding-left: 0; padding-right: 0; width: 55%;}
+	.clients-item.apex {-webkit-justify-content: flex-end; justify-content: flex-end; width: 45%; padding-bottom: 0}
+	.clients-item.cinema-du-quebec {-webkit-justify-content: flex-start; justify-content: flex-start; padding-left: 0; width: 35%;}
+	.clients-item.enroute {padding-right: 0; width: 50%;}
+	.clients-item.filmbank {padding-left: 0; width: 50%;}
+	.clients-item.logistik {padding-right: 0; width: 50%;}
+	.clients-item.mercedes-benz {padding-left: 0; width: 55%;}
+	.clients-item.penny-black-media {-webkit-justify-content: flex-end; justify-content: flex-end; padding-right: 0; width: 45%;}
+	.clients-item.spafax {-webkit-justify-content: flex-start; justify-content: flex-start; padding-left: 0; width: 40%;}
+	.clients-item.sparksheet {-webkit-justify-content: flex-end; justify-content: flex-end; padding-right: 0; width: 50%;}
+	.clients-item.vancouver-island-university {padding-left: 0; width: 60%;}
+	.clients-item.vista-jet {padding-right: 0; width: 35%;}
+	.clients-item.apex img,
+	.clients-item.cinema-du-quebec img,
+	.clients-item.enroute img,
+	.clients-item.filmbank img,
+	.clients-item.logistik img,
+	.clients-item.mercedes-benz img,
+	.clients-item.penny-black-media img,
+	.clients-item.spafax img,
+	.clients-item.sparksheet img { padding-top: 20px;},
+	.clients-item.vancouver-island-university img,
+	.clients-item.vista-jet img {width: 100%;}
+
+	.clients-underline4 {
+
+		border-bottom: 1px solid #707070;
+		width: 100%;
+		display: inline;
+	}
+
+	.clients-underline3 {
+
+		border-bottom: 1px solid #707070;
+		width: 100%;
+		display: none;
+	}
+
+
+	.clients-underline2 {
+
+		border-bottom: 1px solid #707070;
+		width: 100%;
+		display: inline;
+	}
+
+	.aboutIconContainer {
+
+		width: 60%;
+	}
+
+	.fade-description {
+
+		position: absolute;
+		text-align: center;
+		display: block;
+		left: 0;
+		right: 0;
+		width: 60%;
+		margin: 0 auto;
+
+
+	}
+
+	.aboutIconContainer {
+
+		display: block;
+		width: 90%;
+		height: auto;
+		
+	}
+
+	.accentLineIcon {
+
+		height: 1px;
+		width: 0%;
+
+
+	}
+
+
+	.iconFadeContainer{
+
+		height: auto;
+	}
+
+	.box-fade {
+		display: block;
+		width:70%;
+		padding-bottom: 40px;
+	}
+
+	.iconFade  {
+
+		width: 40%;
+	}
+
+	#icon {
+
+		width: 50px;
+	
+	}
+
+	#navSide {
+
+		bottom: 25%;
+	}
+
+	.iconSpan {
+
+
+		bottom: 0%;
+	}
+
+	#portraitLink {
+
+		font-size: 1.2em;
+	}
+
+	.projectName {
+
+		font-size: 1.2em;
+	}
+
+	.fade-description{
+
+		position: static;
+		width: 100%;
+	}
+
+
+
+}
