@@ -1,111 +1,165 @@
 <div id="homepageHead" class="centered">
-	<h1 id="homepageHeadText"><span id="homepageName">Laura Service</span> is a digital design geek obsessed with form &amp; function.</h1>
+    <h1 id="homepageHeadText"><span id="homepageName">Laura Service</span> is a digital design geek obsessed with form
+        &amp; function.</h1>
 </div>
 <div class="tintPortrait projectImage centered">
-<a id="portraitLink" href="https://gimmebar.com/loves/smervice" target="_blank" class="sansSerif">CHECK OUT COOL DESIGN STUFF I LIKE</a>
-<div>
-		<img class="img-responsive tintImage" ng-src="img/workedWithIcons/Normal-laura-portrait.jpg" ng-srcset="img/workedWithIcons/Normal-laura-portrait.jpg 1x, img/workedWithIcons/2x-laura-portrait.jpg 2x">
-	</div>
+    <a id="portraitLink" href="https://gimmebar.com/loves/smervice" target="_blank" class="sansSerif">CHECK OUT COOL
+        DESIGN STUFF I LIKE</a>
+    <div>
+        <img class="img-responsive tintImage" ng-src="img/workedWithIcons/Normal-laura-portrait.jpg"
+             ng-srcset="img/workedWithIcons/Normal-laura-portrait.jpg 1x, img/workedWithIcons/2x-laura-portrait.jpg 2x">
+    </div>
 </div>
 <div class="accentLine centered">
-		<div class="accentItem sansSerif">ABOUT ME</div>
-		<div id="accentCircle">&bullet;</div>
-		<div class="accentItem sansSerif">WHAT I DO</div>
-		<div id="accentCircle">&bullet;</div>
-		<div class="accentItem sansSerif">MY CLIENTS</div>
+    <div class="accentItem sansSerif">ABOUT ME</div>
+    <div id="accentCircle">&bullet;</div>
+    <div class="accentItem sansSerif">WHAT I DO</div>
+    <div id="accentCircle">&bullet;</div>
+    <div class="accentItem sansSerif">MY CLIENTS</div>
 </div>
 <div id="contentSection" class="containerFlex centered">
-		<div ng-bind-html="about.description" class="padding-bottom contentParagraph"></div>
-		<div id="sidebar" class="padding-bottom">
-			<ul ng-repeat="(key, item) in about.sidebar">
-				<li class="sidebarTitle sansSerif">{{ key }}</li>
-				<li ng-if="key !== 'Find me on' " class="sidebarInfo" ng-bind-html="item"></li>
-				<li ng-if="key == 'Find me on' " class="sidebarInfo">
-					<ul id="iconAboutList">
-						<li class="iconLiAbout"><a class="iconLinkButton" target="_blank" href="http://www.facebook.com/Lauraserviceca"><img class="aboutIcon" src="img/icon/facebook-icon.svg"></img></a></li>
-						<li class="iconLiAbout"><a class="iconLinkButton" target="_blank" href="https://twitter.com/smervice"><img class="aboutIcon" src="img/icon/twitter-icon.svg"></img></a></li>
-						<li class="iconLiAbout"><a class="iconLinkButton" target="_blank" href="https://ca.linkedin.com/in/lservice"><img class="aboutIcon" src="img/icon/linkedin-icon.svg"></img></a></li>
-						<li class="iconLiAbout"><a class="iconLinkButton" target="_blank" href="https://instagram.com/smervice/"><img class="aboutIcon" src="img/icon/instagram-icon.svg"></img></a></li>
-					</ul>
-				</li>
+    <div ng-bind-html="about.description" class="padding-bottom contentParagraph"></div>
+    <div id="sidebar" class="padding-bottom">
+        <ul>
+            <li class="sidebarTitle sansSerif">EMAIL</li>
+            <li class="sidebarInfo">
+                <a href="mailto:laura.service1@gmail.com" class="colored-underline">
+                    laura.service1@gmail.com</a>
+            </li>
+            <li class="sidebarTitle sansSerif">PHONE</li>
+            <li class="sidebarInfo">438-350-7191</li>
+            <li class="sidebarTitle sansSerif">Instagram</li>
+            <li class="sidebarInfo">
+                <a href="https://www.instagram.com/smervice/?hl=en" class="colored-underline">@smervice</a>
+            </li>
+            <li class="instagram-image">
+                <a href="{{instagramLink.link}}" target="_blank">
+                    <img src="{{instagramLink.src}}">
+                </a>
+            </li>
+            <li class="sidebarTitle sansSerif">I'm also On</li>
+            <ul id="iconAboutList">
+                <li class="iconLiAbout"><a class="iconLinkButton" target="_blank"
+                                           href="http://www.facebook.com/Lauraserviceca"><img class="aboutIcon"
+                                                                                              src="img/icon/facebook-icon.svg"></img></a>
+                </li>
+                <li class="iconLiAbout"><a class="iconLinkButton" target="_blank"
+                                           href="https://twitter.com/smervice"><img class="aboutIcon"
+                                                                                    src="img/icon/twitter-icon.svg"></img></a>
+                </li>
+                <li class="iconLiAbout"><a class="iconLinkButton" target="_blank"
+                                           href="https://ca.linkedin.com/in/lservice"><img class="aboutIcon"
+                                                                                           src="img/icon/linkedin-icon.svg"></img></a>
+                </li>
+            </ul>
+            </li>
 
-			</ul>
-		</div>
-	</div>
-	<h1 scroll-on-load id="servicesSection" class="title centered">What I do best</h1>
-	<div class="centered aboutIconContainer">
-		<div class="box-fade">
-			<div class="iconFadeContent">
-				<div class="iconFadeContainer"><img class="iconFade"src="img/icon/interaction-design.svg"/></div>
-				<div class="fade-title sansSerif">INTERACTION DESIGN</div>
-				<div class="fade-description">
-					<div class="fade-top-text">I craft clear user experiences that encourage people to explore, learn and be entertained.</div>
-					<div class="iconFadeBottomText sansSerif">I provide services for responsive website design, microsites, apps, and content strategy.</div>
-				</div>
-		</div>
-		</div>
-		<div class="accentLineIcon"></div>
-		<div class="box-fade">
-			<div class="iconFadeContent">
-				<div class="iconFadeContainer"><img class="iconFade" src="img/icon/branding.svg"/></div>
-				<div class="fade-title sansSerif">BRANDING</div>
-				<div class="fade-description">
-					<div class="fade-top-text">I transform my clients’ image by developing their brand to be more impactful, trustworthy and effective.</div>
-					<div class="iconFadeBottomText sansSerif">I provide services for art direction, logos, illustration, photography, and print design.</div>
-				</div>
-			</div>
-		</div>
-		<div class="accentLineIcon"></div>
-		<div class="box-fade">
-			<div class="iconFadeContent">
-				<div class="iconFadeContainer"><img class="iconFade" src="img/icon/data-visualization.svg"/></div>
-				<div class="fade-title sansSerif">DATA VISUALIZATION</div>
-				<div class="fade-description">
-					<div class="fade-top-text">I extract content from spreadsheets to visualize trends, facilitate user exploration and explain ideas efficiently.</div>
-					<div class="iconFadeBottomText sansSerif">I provide services for infographics, annual reports, mapping, system diagrams, and motion.</div>
-				</div>
-		</div>
-	</div>
-	</div>
-	<h1 class="title centered workedWith">I have worked with</h1>
+        </ul>
+    </div>
+</div>
+<h1 scroll-on-load id="servicesSection" class="title centered">What I do best</h1>
+<div class="centered aboutIconContainer">
+    <div class="box-fade">
+        <div class="iconFadeContent">
+            <div class="iconFadeContainer"><img class="iconFade" src="img/icon/interaction-design.svg"/></div>
+            <div class="fade-title sansSerif">INTERACTION DESIGN</div>
+            <div class="fade-description">
+                <div class="fade-top-text">I craft clear user experiences that encourage people to explore, learn and be
+                    entertained.
+                </div>
+                <div class="iconFadeBottomText sansSerif">I provide services for responsive website design, microsites,
+                    apps, and content strategy.
+                </div>
+                <div style="text-align: center">
+                    <button class="quoteButton sansSerif">REQUEST A QUOTE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accentLineIcon"></div>
+    <div class="box-fade">
+        <div class="iconFadeContent">
+            <div class="iconFadeContainer"><img class="iconFade" src="img/icon/branding.svg"/></div>
+            <div class="fade-title sansSerif">BRANDING</div>
+            <div class="fade-description">
+                <div class="fade-top-text">I transform my clients’ image by developing their brand to be more impactful,
+                    trustworthy and effective.
+                </div>
+                <div class="iconFadeBottomText sansSerif">I provide services for art direction, logos, illustration,
+                    photography, and print design.
+                </div>
+                <div style="text-align: center">
+                    <button class="quoteButton sansSerif">REQUEST A QUOTE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accentLineIcon"></div>
+    <div class="box-fade">
+        <div class="iconFadeContent">
+            <div class="iconFadeContainer"><img class="iconFade" src="img/icon/data-visualization.svg"/></div>
+            <div class="fade-title sansSerif">DATA VISUALIZATION</div>
+            <div class="fade-description">
+                <div class="fade-top-text">I extract content from spreadsheets to visualize trends, facilitate user
+                    exploration and explain ideas efficiently.
+                </div>
+                <div class="iconFadeBottomText sansSerif">I provide services for infographics, annual reports, mapping,
+                    system diagrams, and motion.
+                </div>
+                <div style="text-align: center">
+                    <button class="quoteButton sansSerif">REQUEST A QUOTE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bigRequestButton">
+    <button id="primaryButton" class="sansSerif" style="margin-top: 0px;">REQUEST A QUOTE</button>
+</div>
+<h1 class="title centered workedWith">I have worked with</h1>
 
-	<ul class="padding-top centered clients-list">
-		<li class="clients-item air-canada"><img src="img/workedWithIcons/Air-Canada.svg" alt="Air Canada"></li>
-		<li class="clients-item apex"><img src="img/workedWithIcons/Apex.svg" alt="APEX"></li>
-		<li class="clients-underline2"></li>
-		<li class="clients-item cinema-du-quebec"><img src="img/workedWithIcons/Cinema-du-Quebec.svg" alt="Cinema du Quebec"></li>
-		<li class="clients-underline3"></li>
-		<li class="clients-item enroute"><img src="img/workedWithIcons/enRoute.svg" alt="enRoute"></li>
-		<li class="clients-underline4"></li>
-		<li class="clients-item filmbank"><img src="img/workedWithIcons/Filmbank.svg" alt="Filmbank"></li>
-		<li class="clients-item logistik"><img src="img/workedWithIcons/Logistik.svg" alt="Logistik Unicorp"></li>
-		<li class="clients-underline3"></li>
-		<li class="clients-underline2"></li>
-		<li class="clients-item mercedes-benz"><img src="img/workedWithIcons/Mercedes-Benz-Magazine.svg" alt="Mercedes-Benz Canada Magazine"></li>
-		<li class="clients-item penny-black-media"><img src="img/workedWithIcons/Penny-Black-Media.svg" alt="Penny Black Media"></li>
-		<li class="clients-underline4"></li>
-		<li class="clients-item spafax"><img src="img/workedWithIcons/Spafax.svg" alt="Spafax"></li>
-		<li class="clients-underline3"></li>
-		<li class="clients-item sparksheet"><img src="img/workedWithIcons/Sparksheet.svg" alt="Sparksheet"></li>
-		<li class="clients-underline2"></li>
-		<li class="clients-item vancouver-island-university"><img src="img/workedWithIcons/Vancouver-Island-University.svg" alt="Vancouver Island University"></li>
-		<li class="clients-item vista-jet"><img src="img/workedWithIcons/Vista-Jet.svg" alt="Vista Jet"></li>
-	</ul>
+<ul class="padding-top centered clients-list">
+    <li class="clients-item air-canada"><img src="img/workedWithIcons/Air-Canada.svg" alt="Air Canada"></li>
+    <li class="clients-item apex"><img src="img/workedWithIcons/Apex.svg" alt="APEX"></li>
+    <li class="clients-underline2"></li>
+    <li class="clients-item cinema-du-quebec"><img src="img/workedWithIcons/Cinema-du-Quebec.svg"
+                                                   alt="Cinema du Quebec"></li>
+    <li class="clients-underline3"></li>
+    <li class="clients-item enroute"><img src="img/workedWithIcons/enRoute.svg" alt="enRoute"></li>
+    <li class="clients-underline4"></li>
+    <li class="clients-item filmbank"><img src="img/workedWithIcons/Filmbank.svg" alt="Filmbank"></li>
+    <li class="clients-item logistik"><img src="img/workedWithIcons/Logistik.svg" alt="Logistik Unicorp"></li>
+    <li class="clients-underline3"></li>
+    <li class="clients-underline2"></li>
+    <li class="clients-item mercedes-benz"><img src="img/workedWithIcons/Mercedes-Benz-Magazine.svg"
+                                                alt="Mercedes-Benz Canada Magazine"></li>
+    <li class="clients-item penny-black-media"><img src="img/workedWithIcons/Penny-Black-Media.svg"
+                                                    alt="Penny Black Media"></li>
+    <li class="clients-underline4"></li>
+    <li class="clients-item spafax"><img src="img/workedWithIcons/Spafax.svg" alt="Spafax"></li>
+    <li class="clients-underline3"></li>
+    <li class="clients-item sparksheet"><img src="img/workedWithIcons/Sparksheet.svg" alt="Sparksheet"></li>
+    <li class="clients-underline2"></li>
+    <li class="clients-item vancouver-island-university"><img src="img/workedWithIcons/Vancouver-Island-University.svg"
+                                                              alt="Vancouver Island University"></li>
+    <li class="clients-item vista-jet"><img src="img/workedWithIcons/Vista-Jet.svg" alt="Vista Jet"></li>
+</ul>
 
-	</div>
+</div>
 <div id="projectFooter">
-	<h1 id="projectFooterTitle">More Work</h1>
-	<img id="greenArrow" src="img/icon/Arrow.gif">
+    <h1 id="projectFooterTitle">Portfolio</h1>
+    <img id="greenArrow" src="img\icon\dotted-arrow.svg">
 </div>
 
-	<div class="centered" id="aboutProject">
-	<ul>
-		<li ng-repeat="project in projects">
-			<div class="projectImage image-wrapper">
-				<a href="#/projects/{{ project.id }}"><p class="projectName sansSerif">{{project.name}}</p>
-					<img class="img-responsive image" ng-src="{{ project.imageUrl }}" ng-srcset="{{ project.imageUrl }} 1x, {{ project.imageUrl2x }} 2x">
-				</a>
-			</div>
-		</li>
-	</ul>
+<div class="centered" id="aboutProject">
+    <ul>
+        <li ng-repeat="project in projects">
+            <div class="projectImage image-wrapper">
+                <a href="#/projects/{{ project.id }}"><p class="projectName sansSerif">{{project.name}}</p>
+                    <img class="img-responsive image" ng-src="{{ project.imageUrl }}"
+                         ng-srcset="{{ project.imageUrl }} 1x, {{ project.imageUrl2x }} 2x">
+                </a>
+            </div>
+        </li>
+    </ul>
 </div>

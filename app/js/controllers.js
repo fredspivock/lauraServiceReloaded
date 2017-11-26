@@ -207,6 +207,13 @@ lauraServiceControllers.controller('AboutCtrl', ['$scope', '$http', '$location',
 
     });
 
+      $http.get('projects/instagram.json').success(function(data){
+          console.log(data);
+          console.log(data[Math.floor(Math.random() * data.length - 1)]);
+          $scope.instagramLink = data[Math.floor(Math.random() * data.length - 1)];
+
+      });
+
     $http.get('projects/homepageProjects.json').success(function(data){
 
       $scope.projects = data;
