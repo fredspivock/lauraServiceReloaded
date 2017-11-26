@@ -528,11 +528,6 @@ img {
     color: #000000;
 }
 
-.contentParagraph a {
-    color: #000000;
-    text-decoration: underline;
-}
-
 .contentParagraph a:hover {
     color: #0e4afb;
     text-decoration: none;
