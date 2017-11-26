@@ -16,6 +16,11 @@ p {
     color: #0e4afb
 }
 
+.bigRequestButton {
+    display: none;
+    text-align: center;
+}
+
 .colored-underline {
     border-bottom: 1px solid #0e4afb;
 }
@@ -592,7 +597,7 @@ img {
     margin-top: 20px;
     padding: 5px 25px 5px 25px;
     background-color: #0e4afb;
-    color: #ffffff;
+    color: #ffffff !important;
     border: #0e4afb solid 3px;
     font-size: 1.1em;
     position: relative;
@@ -1170,6 +1175,54 @@ img {
 }
 
 @media (max-width: 785px) {
+    /*  Single Project Description and sidebar */
+
+    #sidebar {
+
+        order: 2; -webkit-order:2;
+        width: 100%;
+
+    }
+
+    .contentParagraph {
+        width: 100%;
+
+    }
+
+    #description {
+
+        order: 1; -webkit-order: 1;
+        width: 100%;
+    }
+
+    h1 {
+
+        font-size: 2em;
+    }
+
+
+    .projectName  {
+
+        font-size: 1.5em;
+
+    }
+
+    .logoContainer {
+
+        display: block;
+        font-size: 0px;
+    }
+
+    .logo {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .logoAccentLine {
+
+        height: 50px;
+    }
+
     .quoteButton {
         display: none;
     }
